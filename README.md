@@ -1,42 +1,33 @@
-![CF](http://i.imgur.com/7v5ASc8.png) LAB
+![CF](http://i.imgur.com/7v5ASc8.png) LAB 41
 =================================================
 
-## Project Name
+## React Native
 
-### Author: Student/Group Name
+### Author: Katherine Smith
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [repository](https://github.com/ksmith10309/rna)
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
+#### `App.js`
+- Contains App component
+  - Contains state for image, width, height, and text
+  - Contains _increaseWidth() method which allows user to increase width of image
+  - Contains _decreaseWidth() method which allows user to decrease width of image
+  - Contains _increaseHeight() method which allows user to increase height of image
+  - Contains _decreaseHeight() method which allows user to decrease height of image
+  - Contains _pickImage() method which allows user to choose an image from device
+  - Renders buttons for choosing an image and image size manipulation
+  - Renders input field for user to add a caption to the image
+  - Renders image and caption
 
 ### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
-
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
-
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
-
-#### UML
-Link to an image of the UML for your application and response to events
+* Clone rna repository
+* Ensure node.js is installed
+  * If not, run the command `brew install node` in the terminal
+* Ensure Expo command line tool is installed
+  * If not, run the command `npm i -g expo-cli` in the terminal
+* Navigate to the cloned repository in the terminal
+  * Run the command `npm i` to install dependencies
+  * Run the command `npm start` to start Expo
